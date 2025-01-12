@@ -1,50 +1,84 @@
-# Welcome to your Expo app 👋
+Dhan-Niti: Financial Empowerment App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Dhan-Niti is a mobile app designed to help rural women achieve financial independence by providing accessible financial education, personalized guidance, and community support. The app offers a holistic approach to personal finance, covering budgeting, saving, investing, and more.
 
-## Get started
+Features
+	•	Onboarding & Authentication: Secure login with Clerk Authentication.
+	•	Multilingual Financial Education: Personalize financial education in the user’s selected language.
+	•	AI Assistant: Provides personalized financial advice on budgeting, saving, and investing.
+	•	Expense Tracker: Log daily expenses and receive real-time budgeting advice.
+	•	Mentorship & Community Support: Connect with experienced women entrepreneurs and mentors.
+	•	Micro-Investment Opportunities: Recommend low-risk investment options based on the user’s financial profile.
+	•	AI Storytelling: Motivational, real-life financial success stories in the user’s language.
+	•	News & Blogs: Stay updated with financial trends, tips, and empowering stories.
 
-1. Install dependencies
+Installation Guidelines
 
-   ```bash
-   npm install
-   ```
+Prerequisites
+	•	Node.js (LTS version)
+	•	Firebase account for Cloud Firestore integration
+	•	Clerk account for user authentication
+	•	Rapid API account for the AI Assistant
+	•	Gemini API account for the AI Storytelling feature
 
-2. Start the app
+1. Clone the Repository
 
-   ```bash
-    npx expo start
-   ```
+git clone https://github.com/yourusername/dhan-niti.git
+cd dhan-niti
 
-In the output, you'll find options to open the app in a
+2. Install Dependencies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Make sure you have npm or yarn installed.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Using npm:
 
-## Get a fresh project
+npm install
 
-When you're ready, run:
+Using yarn:
 
-```bash
-npm run reset-project
-```
+yarn install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Setup Firebase
+	•	Create a Firebase project in the Firebase Console.
+	•	Set up Firestore Database.
+	•	Download your firebase-config.js file and place it in the src directory.
+	•	Set up Firestore rules according to your app’s requirements.
 
-## Learn more
+4. Setup Clerk Authentication
+	•	Sign up for Clerk.
+	•	Create a new application and obtain your Clerk API keys.
+	•	Add the Clerk API keys to the app’s environment configuration.
 
-To learn more about developing your project with Expo, look at the following resources:
+5. API Integrations
+	•	Rapid API: Set up your account and obtain your API key for AI Assistant integration.
+	•	Gemini API: Get your API key for AI Storytelling and configure it in the app.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+6. Running the App Locally
 
-## Join the community
+After setting up the configurations and dependencies, you can run the app locally:
 
-Join our community of developers creating universal apps.
+npm start
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+or
+
+yarn start
+
+Visit http://localhost:3000 in your browser to view the app.
+
+Technologies Used
+	•	React.js (Frontend)
+	•	Firebase Firestore (Database)
+	•	Clerk (Authentication)
+	•	Rapid API (AI Assistant)
+	•	Gemini API (AI Storytelling)
+	•	Node.js (Backend)
+
+Contributing
+
+Feel free to open issues, submit pull requests, and contribute to the development of the app.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+This README should guide you and other developers in setting up the project for development or contribution. Let me know if you need any further customizations!
