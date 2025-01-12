@@ -1,3 +1,5 @@
+Here’s the corrected version of the README with React Native as the tech stack:
+
 Dhan-Niti: Financial Empowerment App
 
 Dhan-Niti is a mobile app designed to help rural women achieve financial independence by providing accessible financial education, personalized guidance, and community support. The app offers a holistic approach to personal finance, covering budgeting, saving, investing, and more.
@@ -57,16 +59,18 @@ yarn install
 
 After setting up the configurations and dependencies, you can run the app locally:
 
+Using npm:
+
 npm start
 
-or
+Or using yarn:
 
 yarn start
 
 Visit http://localhost:3000 in your browser to view the app.
 
 Technologies Used
-	•	React.js (Frontend)
+	•	React Native (Frontend)
 	•	Firebase Firestore (Database)
 	•	Clerk (Authentication)
 	•	Rapid API (AI Assistant)
@@ -81,4 +85,4 @@ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-This README should guide you and other developers in setting up the project for development or contribution. Let me know if you need any further customizations!
+This README should now be aligned with your tech stack using React Native. Let me know if you need any further adjustments!
