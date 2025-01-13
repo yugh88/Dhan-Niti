@@ -1,88 +1,148 @@
-Here’s the corrected version of the README with React Native as the tech stack:
+# **Dhan-Niti: Empowering Women through Financial Literacy**  
 
-Dhan-Niti: Financial Empowerment App
+[![Watch the Demo Video](https://img.youtube.com/vi/AWAyLDcKeOA/0.jpg)](https://youtu.be/AWAyLDcKeOA)  
+*Click above to watch the app demo!*  
 
-Dhan-Niti is a mobile app designed to help rural women achieve financial independence by providing accessible financial education, personalized guidance, and community support. The app offers a holistic approach to personal finance, covering budgeting, saving, investing, and more.
+---
 
-Features
-	•	Onboarding & Authentication: Secure login with Clerk Authentication.
-	•	Multilingual Financial Education: Personalize financial education in the user’s selected language.
-	•	AI Assistant: Provides personalized financial advice on budgeting, saving, and investing.
-	•	Expense Tracker: Log daily expenses and receive real-time budgeting advice.
-	•	Mentorship & Community Support: Connect with experienced women entrepreneurs and mentors.
-	•	Micro-Investment Opportunities: Recommend low-risk investment options based on the user’s financial profile.
-	•	AI Storytelling: Motivational, real-life financial success stories in the user’s language.
-	•	News & Blogs: Stay updated with financial trends, tips, and empowering stories.
+## **About Dhan-Niti**  
+**Dhan-Niti** is an AI-powered financial literacy app designed to empower rural women in India. It simplifies complex financial concepts into accessible and relatable modules, breaking down barriers to financial independence. With multilingual support, smart AI tools, and community-driven features, **Dhan-Niti** provides a one-stop platform for women to learn, manage, and grow their financial skills.  
 
-Installation Guidelines
+Through innovative AI integration, **Dhan-Niti** acts as a virtual mentor, offering budgeting tips, personalized advice, and motivational content in regional languages, ensuring no woman is left behind in her financial journey.  
 
-Prerequisites
-	•	Node.js (LTS version)
-	•	Firebase account for Cloud Firestore integration
-	•	Clerk account for user authentication
-	•	Rapid API account for the AI Assistant
-	•	Gemini API account for the AI Storytelling feature
+---
 
-1. Clone the Repository
+## **Features**  
 
-git clone https://github.com/yourusername/dhan-niti.git
-cd dhan-niti
+1. **Multilingual Financial Education**:  
+   - Courses available in Hindi, Tamil, Telugu, and other regional languages.  
+   - Tailored modules for beginners to advanced learners, teaching budgeting, saving, and investing.  
 
-2. Install Dependencies
+2. **AI-Powered Assistant**:  
+   - Personalized financial guidance and budgeting advice.  
+   - Multilingual chatbot that makes learning interactive and conversational.  
 
-Make sure you have npm or yarn installed.
+3. **Expense Tracker**:  
+   - Simplified tools for managing and tracking expenses.  
+   - Offers insights into spending patterns to promote savings.  
 
-Using npm:
+4. **Mentorship and Community Support**:  
+   - Connect with female mentors and successful entrepreneurs for guidance.  
+   - Access real-life success stories for motivation and inspiration.  
 
-npm install
+5. **News and Blogs**:  
+   - Curated multilingual financial news to keep users informed.  
+   - Blogs and articles designed to inspire and educate.  
 
-Using yarn:
+6. **AI-Driven Storytelling**:  
+   - Inspiring financial stories integrated with real-world lessons to motivate users.  
 
-yarn install
+---
 
-3. Setup Firebase
-	•	Create a Firebase project in the Firebase Console.
-	•	Set up Firestore Database.
-	•	Download your firebase-config.js file and place it in the src directory.
-	•	Set up Firestore rules according to your app’s requirements.
+## **Current Prototype**  
+To build the prototype, we leveraged:  
 
-4. Setup Clerk Authentication
-	•	Sign up for Clerk.
-	•	Create a new application and obtain your Clerk API keys.
-	•	Add the Clerk API keys to the app’s environment configuration.
+- **React Native with Expo**:  
+   A cross-platform framework that ensures smooth functionality on Android and iOS devices.  
 
-5. API Integrations
-	•	Rapid API: Set up your account and obtain your API key for AI Assistant integration.
-	•	Gemini API: Get your API key for AI Storytelling and configure it in the app.
+- **Rapid API**:  
+   Used to prototype the AI-powered chatbot for multilingual and contextual financial guidance.  
 
-6. Running the App Locally
+- **Cloud Firestore**:  
+   A NoSQL database for seamless offline support and asynchronous data storage.  
 
-After setting up the configurations and dependencies, you can run the app locally:
+- **Clerk Authentication**:  
+   For secure and hassle-free onboarding with user identity management.  
 
-Using npm:
+---
 
-npm start
+## **Future Development**  
 
-Or using yarn:
+As we advance, **Dhan-Niti** will evolve with:  
 
-yarn start
+1. **Agentic AI Technology**:  
+   - Integrating agent-based AI to create more autonomous and proactive interactions.  
+   - Users will experience a chatbot that not only answers questions but also predicts needs and recommends solutions.  
 
-Visit http://localhost:3000 in your browser to view the app.
+2. **OpenAI GPT Models with Vector Database**:  
+   - Enhanced personalization through advanced AI models.  
+   - A vector database (e.g., Pinecone) will enable user history tracking, contextual learning, and tailored recommendations.  
 
-Technologies Used
-	•	React Native (Frontend)
-	•	Firebase Firestore (Database)
-	•	Clerk (Authentication)
-	•	Rapid API (AI Assistant)
-	•	Gemini API (AI Storytelling)
-	•	Node.js (Backend)
+3. **Enhanced Analytics and Gamification**:  
+   - Introduce analytics dashboards for users to visualize their financial progress.  
+   - Gamify the learning experience to increase engagement and motivation.  
 
-Contributing
+4. **Improved Offline Support**:  
+   - Expand offline capabilities, ensuring continuous access to educational modules even in low-connectivity areas.  
 
-Feel free to open issues, submit pull requests, and contribute to the development of the app.
+---
 
-License
+## **Installation Guidelines**  
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### **Prerequisites**  
+- **Node.js** and **npm** installed on your system.  
+- Install **Expo CLI** globally:  
+  ```bash  
+  npm install -g expo-cli  
+  ```  
 
-This README should now be aligned with your tech stack using React Native. Let me know if you need any further adjustments!
+### **Steps**  
+1. **Clone the Repository**:  
+   ```bash  
+   git clone https://github.com/<your-repo-url>.git  
+   cd Dhan-Niti  
+   ```  
+
+2. **Install Dependencies**:  
+   ```bash  
+   npm install  
+   ```  
+
+3. **Run the App**:  
+   ```bash  
+   expo start  
+   ```  
+   - Use the QR code displayed in the terminal to open the app on your smartphone via the **Expo Go** app.  
+
+4. **Set Up Firebase**:  
+   - Create a Firebase project and add the configuration files:  
+     - `google-services.json` for Android.  
+     - `GoogleService-Info.plist` for iOS.  
+
+5. **Configure Clerk Authentication**:  
+   - Set up a project on **Clerk** and add your API keys to the `.env` file.  
+
+---
+
+## **API Usage Guidelines**  
+
+### **APIs Used**:  
+1. **News API**:  
+   Fetches multilingual financial news and blogs for the users.  
+
+2. **Rapid API**:  
+   Powers the AI chatbot for financial advice and budgeting tips in multiple languages.  
+
+3. **Custom APIs**:  
+   Manage user-specific data like courses, mentors, and progress tracking.  
+
+**Future API Enhancements**:  
+We aim to reduce dependency on third-party APIs by developing in-house solutions powered by OpenAI and agentic AI technology for better scalability, personalization, and control.  
+
+---
+
+## **Working Demo**  
+Watch the app in action here:  
+[![Watch Demo Video](https://img.youtube.com/vi/AWAyLDcKeOA/0.jpg)](https://youtu.be/AWAyLDcKeOA)  
+
+---
+
+## **Contributing**  
+We welcome developers, collaborators, and organizations to join us in expanding **Dhan-Niti**. Feel free to open issues, submit pull requests, or suggest features.  
+
+---
+
+## **License**  
+This project is licensed under the **MIT License**.  
+
+---  
